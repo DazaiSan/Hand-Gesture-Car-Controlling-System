@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Hand Gesture Based Car Control | B1 G5</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+
+<body id="home" class="homepage">
+
+    <header id="header">
+        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">
+            <div class="container">
+                <!-- <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </div> -->
+				
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="scroll active"><a href="#home">Home</a></li>
+                        <li class="scroll"><a href="#cta">Brief Description</a></li>
+                        <li class="scroll"><a href="#equipments">Equipments</a></li>
+                        <li class="scroll"><a href="#howitworks">How It Works</a></li>
+                        <li class="scroll"><a href="#blockDiagram">Block Diagram</a></li>
+                        <li class="scroll"><a href="#algorithm">Algorithm</a></li>
+                        <li class="scroll"><a href="#pinDiagram">Pin Diagram</a></li>
+                        <li class="scroll"><a href="#problems">Problems Faced</a></li> 
+                        <li class="scroll"><a href="#groupMembers">Group Members</a></li>                        
+                        <li class="scroll"><a href="#teachers">Course Teachers</a></li>                        
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    </header><!--/header-->
+
+    <section id="main-slider">
+        <div class="owl-carousel">
+            <div class="item" style="background-image: url(images/project/home.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <!-- <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2><span>Multi</span> is the best Onepage html template</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
+                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+             <div class="item" style="background-image: url(images/project/drive.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+<!--                             <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <h2>Beautifully designed <span>free</span> one page template</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et  dolore magna incididunt ut labore aliqua. </p>
+                                    <a class="btn btn-primary btn-lg" href="#">Read More</a>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.owl-carousel-->
+    </section><!--/#main-slider-->
+
+    <section id="cta" class="wow fadeIn">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-10">
+                    <h2>A Brief Description</h2>
+                    <p style="font-size:120%">
+                    In our project, we have introduced an embedded system for driving your car wirelessly, with only the gesture of your hand.
+                    The whole system can be divided into two individual parts. <br/>
+                    <strong>Transmitter.</strong> This is the part which detect the gesture of the hand. It is attached to the hand with the help of a custom made glove. An accelerometer is used to detect the movement of the hand and the microcontroller converts it to a relevant geture command. It sends the command to the vehicle though a bluetooth module.<br/>
+                    <strong>Receiver.</strong> The receiver part stays at the vehicle. The microcontroller here catches the command signal through a bluetooth module that has been paired with the transmitter. The arduino, then controls the motor to move the vehicle according to the command.
+
+                    </p>
+                </div>
+                <div class="col-sm-2 text-center scroll">
+                    <a class="btn btn-primary btn-lg" href="#howitworks">Go to VDO</a>
+                </div>
+            </div>
+        </div>
+    </section><!--/#brief-->
+
+    <div id="equipments" style="background-color: FFFFFF;">
+    <section id="portfolio"> <!-- equipments -->
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Required Equipments</h2>
+                <p class="text-center wow fadeInDown">Below is the list of equipments that we needed in our project. As we worked in small modules, so is the equipments described.</p>
+            </div>
+
+            <div class="text-center">
+                <ul class="portfolio-filter">
+                    <li><a class="active" href="#" data-filter="*">All</a></li>
+                    <li><a href="#" data-filter=".transmitter">Transmitter</a></li>
+                    <li><a href="#" data-filter=".receiver">Receiver</a></li>
+                    <li><a href="#" data-filter=".car">Car</a></li>
+                </ul><!--/#portfolio-filter-->
+            </div>
+
+            <div class="portfolio-items">
+                <div class="portfolio-item transmitter">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/project/arduinoNano.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>Arduino Nano</h3>
+                            The processor
+                            <a class="preview" href="images/project/arduinoNano.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item transmitter receiver">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/project/hc05.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>HC - 05</h3>
+                            Bluetooth module
+                            <a class="preview" href="images/project/hc05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item transmitter">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/project/adxl335.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>ADXL 335</h3>
+                            Accelerometer
+                            <a class="preview" href="images/project/adxl335.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item receiver">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/project/arduinoUno.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>Arduino Uno</h3>
+                            The processor
+                            <a class="preview" href="images/project/arduinoUno.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item transmitter receiver">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/project/resistors.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Resistors</h3>
+                            1ohm
+                            <a class="preview" href="images/project/resistors.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item transmitter receiver">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/project/diodes.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>Diodes</h3>
+                            Diodes
+                            <a class="preview" href="images/project/diodes.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item car">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/project/car.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Car</h3>
+                            Robotics Chassis Two Wheel with DC Motors
+                            <a class="preview" href="images/project/car.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item car">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/project/motorDriver.png" alt="">
+                        <div class="portfolio-info">
+                            <h3>L293D</h3>
+                            Motor Driver
+                            <a class="preview" href="images/project/motorDriver.png" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+
+                <div class="portfolio-item car">
+                    <div class="portfolio-item-inner">
+                        <img class="img-responsive" src="images/project/lipoBattery.jpg" alt="">
+                        <div class="portfolio-info">
+                            <h3>Lipo Battery</h3>
+                            Lipo 800mah 3cell
+                            <a class="preview" href="images/project/lipoBattery.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        </div>
+                    </div>
+                </div><!--/.portfolio-item-->
+            </div>
+        </div><!--/.container-->
+    </section><!--/#portfolio-->
+    </div>
+
+    <div id="howitworks">
+    <section id="about"> <!-- how it works -->
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">How It Works</h2>
+                <p class="text-center wow fadeInDown">At transmitter, Accelerometer takes input. Arduino converts it to a relevant signal. Signal is sent through bluetooth module. <br> At receiver, bluetooth receives the signal. Arduino moves the car accordingly.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 wow fadeInLeft" id="vdo">
+                    <h3 class="column-title">Video Intro</h3>
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <!-- <iframe src="https://youtu.be/38_c6dh6Y6M" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/38_c6dh6Y6M" frameborder="0" allowfullscreen></iframe> -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/DDyQqzwU0SA" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 wow fadeInRight">
+                    <h3 class="column-title">Explanation</h3>
+                    <p>Our system controls four movements of the car. Right, left, forward and stop. Once the accelerometer starts, it takes some time to callibrate its value as to the initial position. After 3seconds, it gets ready to function. It takes the movements of the hand as input. The arduino gets the values from the accelerometer through an analogue channel. It gets three values: acceleration in x-axis, y-axis and z-axis. Arduino calculates the differance of the present value and the callibrated value, and from the result, it decides the command that the hand is trying to signal. It, then, sends the signal through a bluetooth module.
+                      <br/><br/>
+                      There is another bluetooth module residing at the car. It has been paired with the module in hand so that no noise interferes with the connection. According to the command received (F for forward, L for left, R for right, S for stop), the arduino controls the motors to move the car accordingly.  
+                    </p>
+
+                    <!-- <div class="row">
+                        <div class="col-sm-6">
+                            <ul class="nostyle">
+                                <li><i class="fa fa-check-square"></i> Ipsum is simply dummy</li>
+                                <li><i class="fa fa-check-square"></i> When an unknown</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <ul class="nostyle">
+                                <li><i class="fa fa-check-square"></i> The printing and typesetting</li>
+                                <li><i class="fa fa-check-square"></i> Lorem Ipsum has been</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <a class="btn btn-primary" href="#">Learn More</a> -->
+
+                </div>
+            </div>
+        </div>
+    </section><!--/#about-->
+    </div>
+
+    <div id="blockDiagram">
+    <section id="work-process"> <!-- block diagram -->
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Block Diagram</h2>
+                <p class="text-center wow fadeInDown">Below is the block diagram of our project.</p>
+            </div>
+
+            <div class="row text-center">
+                
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
+                    <img class="img-responsive wow fadeIn" src="images/project/blockDiagram1.jpg" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+                </div>
+            
+            </div>
+        </div>
+    </section><!--/#work-process-->
+    </div>
+
+    <div id="algorithm">
+    <section id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Algorithm</h2>
+                <p class="text-center wow fadeInDown">Below is the algorithm of our system.</p>
+            </div>
+            <div class="row text-center">
+                
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
+                    <img class="img-responsive wow fadeIn" src="images/project/algorithm.jpg" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+                </div>
+            
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <div id = "pinDiagram">
+    <section id="work-process"> <!-- pin diagram -->
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Detailed Pin Diagram</h2>
+                <p class="text-center wow fadeInDown">Below is the detailed pin diagram of our project.</p>
+            </div>
+
+            <div class="row text-center">
+                
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
+                    <h3 class="column-title">Transmitter</h3>
+                </div>
+            
+            </div>
+            <div class="row text-center">
+                
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
+                    <img class="img-responsive wow fadeIn" src="images/project/cktTransmitter.jpg" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+                </div>
+            
+            </div>
+            <br/>
+            <br/>
+            <div class="row text-center">
+                
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
+                    <h3 class="column-title">Receiver</h3>
+                </div>
+            
+            </div>
+            <div class="row text-center">
+                
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
+                    <img class="img-responsive wow fadeIn" src="images/project/cktReceiver.jpg" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+                </div>
+            
+            </div>
+        </div>
+    </section><!--/#work-process-->
+    </div>
+
+    <div id="problems">
+    <section id="services" >
+        <div class="container">
+
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Problems Faced</h2>
+                <p class="text-center wow fadeInDown">A brief discussion on the problems that we faced during our system development and how we solved them.</p>
+            </div>
+
+            <div class="row">
+                <div class="features">
+                    <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-language"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Noise in bluetooth</h4>
+                                <p>The first problem that we faced during our project came from the bluetooth module. As it happens, once the module gets power and starts working, it receives all kinds of data. A lot of noise gets introduced. Finding out our relevant data was quite impossible. We later found a way to pair the two modules such that one of them worked as the master and the other as the slave. It resolved the noise problem.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bar-chart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Callibrating Accelerometer</h4>
+                                <p>To meet our purpose, we needed the angular position of the hand. We chose the accelerometer to achieve that. However, accelerometer does not give the angular position directly as output. It measures that acceleration along the 3 axis. Another thing is that, accelerometer is extremely sensitive to movement. What we did was, used the first 100 data along the 3 axis and took the average of them. Later, when we started moving our hands we just took the difference of the current position and the average value. This gave us the opportunity to convert the acceleration to a form of angular position.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-pie-chart"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Power Distribution to Arduino</h4>
+                                <p>We wanted to make the project portable. For that, we had to give power from an external source. We used lipo battery to power the motors. However, this battery outputs about 11.2V which could be harmful to the arduino. So, we used a potentiometer to step down the volt to 5V.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                
+                    <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-cubes"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Power Distribution in Bluetooth</h4>
+                                <p>The same power problem was faced while working with the bluetooth module. Arduino works in 5V, however, bluetooth module needs only 3.3V. So we used a circuit of three resistors to ensure the necessary voltage for each component.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-language"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Security of Component</h4>
+                                <p>We used diode to ensure the security of the components. </p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+
+                    <div class="col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="500ms">
+                        <div class="media service-box">
+                            <div class="pull-left">
+                                <i class="fa fa-bullseye"></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Extreme Heat</h4>
+                                <p>The motors had the problem of heating up to an extreme point. We used motor driver L293D to prevent that.</p>
+                            </div>
+                        </div>
+                    </div><!--/.col-md-4-->
+                </div>
+            </div><!--/.row-->    
+        </div><!--/.container-->
+    </section><!--/#services-->
+    </div>
+    
+    <div class="divider"></div>
+    
+    <div id="groupMembers">
+    <section id="meet-team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Group Members</h2>
+                <p class="text-center wow fadeInDown">Section B1. Group 2.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                        <!-- <div class="team-img">
+                            <img class="img-responsive" src="images/team/01.jpg" alt="">
+                        </div> -->
+                        <div class="team-info">
+                            <h3>Rubaba Hasan</h3>
+                            <span>1205010</span>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/rubabahasan"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+<!--                         <div class="team-img">
+                            <img class="img-responsive" src="images/team/02.jpg" alt="">
+                        </div>
+ -->                        <div class="team-info">
+                            <h3>Amina Khatun Mim</h3>
+                            <span>1205012</span>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/shifana.tazreen"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+<!--                         <div class="team-img">
+                            <img class="img-responsive" src="images/team/03.jpg" alt="">
+                        </div>
+ -->                        <div class="team-info">
+                            <h3>Monowar Anjum Rashik</h3>
+                            <span>1205022</span>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/monowaranjum.rashik"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-2">
+                    
+                </div>
+                <div class="col-sm-6 col-md-4" style="margin-top: 1em;">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+<!--                         <div class="team-img">
+                            <img class="img-responsive" src="images/team/04.jpg" alt="">
+                        </div>
+ -->                        <div class="team-info">
+                            <h3>Ibrahim Asadullah Tahmid</h3>
+                            <span>1205024</span>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/iatahmid"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4" style="margin-top: 1em;">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
+<!--                         <div class="team-img">
+                            <img class="img-responsive" src="images/team/04.jpg" alt="">
+                        </div>
+ -->                        <div class="team-info">
+                            <h3>Nure Tasnina Khushi</h3>
+                            <span>1205038</span>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/noor.tasnina"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-2">
+                    
+                </div>
+
+            </div>
+
+            <div class="divider"></div>
+        </div>
+    </section><!--/#meet-team-->
+    </div>
+
+    <div id="teachers">
+    <section id="meet-team">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title text-center wow fadeInDown">Course Teachers</h2>
+                <p class="text-center wow fadeInDown">Section B1.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/project/sirSakib.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Md. Iftekharul Islam Sakib</h3>
+                            <span>Teacher</span>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/miisakib"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/project/sirIshtiyaque.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Ishtiyaque Ahmad</h3>
+                            <span>Teacher</span>
+                        </div>
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/ishtiyaque.ahmad.169"><i class="fa fa-facebook"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="team-member wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
+                        <div class="team-img">
+                            <img class="img-responsive" src="images/project/sirSharif.jpg" alt="">
+                        </div>
+                        <div class="team-info">
+                            <h3>Md Shariful Islam Bhuyan </h3>
+                            <span>Teacher</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="divider"></div> -->
+        </div>
+    </section><!--/#meet-team-->
+    </div>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row text-center">
+                <div>
+                    &copy; BUET CSE 2016
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
